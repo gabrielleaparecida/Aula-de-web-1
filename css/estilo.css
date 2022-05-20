@@ -26,16 +26,45 @@ header a{
     text-decoration: none;
     color: #000000;
 }
-header div 
-main{
-    min-height: 70vh;
+
+main {
+    min-height: 40vh;
+}
+main.index{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
-
+main.index picture {
+    display: flex;
+    justify-content: center;
+}
+main.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main.auth h1.cad {
+    width: 100%;
+    height: 168px;
+    text-align: center;
+    background-image: url("../imagem\ 1/cabide.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.auth form {
+    background-color: rgba(182, 65, 65, 54%);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
  footer{
      background-color: var(--black);
      height: 4rem;
@@ -71,4 +100,40 @@ main > picture.main > img {
     justify-content:left;
 }
 
-
+main.auth > form {
+    background-color: var(--thirdLight);
+    border: 0.2rem solid rgba(182, 65, 65, 54%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+  main.auth > form > div {
+    background-color: var(--white);
+    border: 0.15rem solid rgba(182, 65, 65, 54%);
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
+  }
+  main.auth > form > div > img {
+    height: 2.5rem;
+    padding: 0.3rem;
+  }
+  main.auth > form > div > input {
+    width: 100%;
+    font-size: 1rem;
+    border: 0;
+    background-color: transparent;
+  }
+  main.auth > form > p > a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 500;
+  }
+  main.auth > form > p > button {
+    background-color: var(--third);
+    color: var(--white);
+    padding: 0.6rem;
+    border: 0;
+    border-radius: 0.6rem;
+    width: 5rem;
+    margin-left: 0.5rem;
+  }
