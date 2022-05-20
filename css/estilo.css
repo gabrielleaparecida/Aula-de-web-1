@@ -21,11 +21,12 @@ header{
     align-items: center;
     margin: 40px;
 }
+
 header a{
     text-decoration: none;
     color: #000000;
 }
-
+header div 
 main{
     min-height: 70vh;
     display: flex;
@@ -34,12 +35,6 @@ main{
     flex-direction: column;
 
 }
- main h1{
-     color: #B64141;
- }
-  main div{
-    color: #B64141;
-  }
 
  footer{
      background-color: var(--black);
@@ -63,3 +58,17 @@ footer div{
 main > picture.main > img {
     width: 100%;
 }
+
+.introducao{
+    display: flex;
+    border-bottom: 0.5rem solid var(--black);
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.introducao div img{
+    justify-content:left;
+}
+
+
