@@ -101,21 +101,18 @@ main > picture.main > img {
 }
 
 main.auth > form {
-    background-color: var(--thirdLight);
-    border: 0.2rem solid rgba(182, 65, 65, 54%);
-    border-radius: 1rem;
+    background-color: rgba(182, 65, 65, 54%);
     padding: 1.5rem;
   }
   main.auth > form > div {
-    background-color: var(--white);
-    border: 0.15rem solid rgba(182, 65, 65, 54%);
-    border-radius: 0.6rem;
+    background-color:rgba(188,125,125,255);
     display: flex;
     margin: 0.5rem 0;
   }
   main.auth > form > div > img {
     height: 2.5rem;
     padding: 0.3rem;
+    color: #622323;
   }
   main.auth > form > div > input {
     width: 100%;
@@ -125,15 +122,35 @@ main.auth > form {
   }
   main.auth > form > p > a {
     text-decoration: none;
-    color: var(--black);
+    color: #622323;
     font-weight: 500;
   }
   main.auth > form > p > button {
-    background-color: var(--third);
-    color: var(--white);
+    background-color: rgba(188,125,125,255);
+    color: #622323;
     padding: 0.6rem;
     border: 0;
     border-radius: 0.6rem;
     width: 5rem;
-    margin-left: 0.5rem;
+    margin-left: 40rem;
+    
   }
+
+
+  main.auth > form > label{
+    color: #622323;
+  }
+   main.auth > picture{
+       display: flex;
+       margin-right: 65rem;
+   }
+
+header div{
+    margin-right: 25rem;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

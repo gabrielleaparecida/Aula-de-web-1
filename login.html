@@ -11,25 +11,48 @@
 
 <body>
     <header class="header">
-        <img src="./logo/image 5.png" alt="logo" />
-        <a href="./login.html">login</a>
-        <a href="./Cadastro.html">cadastre-se</a>
-    </header>
+        <a href="./index.html"><img src="./logo/image 5.png" alt="logo" /></a>
+          <a href="./login.html">login</a>
+          <a href="./Cadastro.html">cadastre-se</a>
+          <a href="./Introdução.html">introdução</a>
+      </header>
     <main class="auth">
-        <h1>login </h1>
-        <div>
-            <h3>E-mail</h3>
-            <input type="text " placeholder="E-mail">
-            <h3>Senha</h3>
-            <input type="text " placeholder="Senha">
-        </div>
-       
-        <div>
-            <p>Não possui conta?Cadastre-se</p>
-            <input type="submit" value="Entrar">
-        </div>
-    </main>
-    <img src="./imagem 1/image 10.png" alt="">
+        <h1 class="cad">Login</h1 class="cad">
+            <form action="cadastrar.html" method="post">
+                <label for="email">E-mail</label>
+                <div>
+                  <img src="./imagem 1/email.png" alt="Email" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="E-mail"
+                  />
+                </div>
+                <label for="senha">Senha</label>
+                <div>
+                  <img src="./imagem 1/chave.png" alt="Key" />
+                  <input
+                    type="password"
+                    name="senha"
+                    id="senha"
+                    required
+                    placeholder="Senha"
+                  />
+                </div>
+                <p>
+                  Não possui conta? <a href="./Cadastro.html">Cadastre-se</a>
+                  <button type="submit">Entrar</button>
+                </p>
+              </form>
+              <picture>
+                <img src="./imagem 1/image 10.png" alt="">
+              </picture>
+              
+            </main>
+
+    
 </body>
 
 </html>
